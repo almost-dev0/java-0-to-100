@@ -7,10 +7,11 @@ public class number_systems
     public static void main(String[] args) 
     {
         // binary
-        int num1 = 0b1001;
+        int num1 = 0b1001;          //use prefix 0b
         System.out.println(num1);
 
-        int num2 = 0x8a;
+        //hexadecimal
+        int num2 = 0x8a;            //use prefix 0x
         System.out.println(num2);
     }
     

@@ -1,4 +1,4 @@
-public public class odd {
+public class odd {
     public static void main(String[] args) 
     {
         System.out.println("Even numbers from 1 to 100:");

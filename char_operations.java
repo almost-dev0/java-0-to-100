@@ -1,6 +1,5 @@
 /*
-this program explores how we can perform mathematical operations on 
-char, and it will yield result in ASCII values
+ 
 */
 
 public class char_operations 

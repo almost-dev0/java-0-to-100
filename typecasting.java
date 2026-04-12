@@ -28,6 +28,12 @@ class typecasting
 
 
         //UPCASTING is done IMPLICITLY, no need to write it explicitly in your code
-        
+
+        float f = 5.69f;
+        int x= 0;
+
+        //now here since we convert float to int, WE LOSE PRECISION, i.e., digits after decimal point
+        x = (int) f;
+        System.out.println(x);
     }    
 }

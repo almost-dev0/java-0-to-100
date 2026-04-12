@@ -20,7 +20,7 @@ class typecasting
 
         /*
             now this here will not generate error but false value; because even though you downcast int to byte,
-            the value of c , i.e. 1500 will still remain above the byte range so it will just print a random number 
+            the value of c , i.e. 1500 will still remain above the byte range so it will just print (1000 % range) 
             instead of 1000
         */
         d = (byte) c;
@@ -28,6 +28,13 @@ class typecasting
 
 
         //UPCASTING is done IMPLICITLY, no need to write it explicitly in your code
+        //UPCASTING IS ALSO KNOWN AS WIDENING AND "TYPE CONVERSION"
+        byte z = 120;
+        int n;
+        n = z;
+        System.out.println(n);
+
+
 
         float f = 5.69f;
         int x= 0;
